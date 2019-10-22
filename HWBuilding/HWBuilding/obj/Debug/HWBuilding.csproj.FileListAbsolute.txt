@@ -1,0 +1,10 @@
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\bin\Debug\HWBuilding.exe.config
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\bin\Debug\HWBuilding.exe
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\bin\Debug\HWBuilding.pdb
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\bin\Debug\Build.dll
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\bin\Debug\Build.pdb
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\obj\Debug\HWBuilding.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\obj\Debug\HWBuilding.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\obj\Debug\HWBuilding.csproj.CopyComplete
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\obj\Debug\HWBuilding.exe
+C:\Users\Артём\source\repos\HWBuilding\HWBuilding\obj\Debug\HWBuilding.pdb

@@ -1,0 +1,6 @@
+C:\Users\Артём\source\repos\HWBuilding\Build\bin\Debug\Build.dll
+C:\Users\Артём\source\repos\HWBuilding\Build\bin\Debug\Build.pdb
+C:\Users\Артём\source\repos\HWBuilding\Build\obj\Debug\Build.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\HWBuilding\Build\obj\Debug\Build.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\HWBuilding\Build\obj\Debug\Build.dll
+C:\Users\Артём\source\repos\HWBuilding\Build\obj\Debug\Build.pdb
