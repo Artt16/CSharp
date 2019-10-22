@@ -1,0 +1,10 @@
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\bin\Debug\Tasks.dll
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\bin\Debug\Tasks.pdb
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.dll
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.pdb
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.csproj.GenerateResource.cache
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.Task2_res.resources
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.Task3_res.resources
+C:\Users\Артём\source\repos\TASK_WEEK_1\Tasks\obj\Debug\Tasks.Task5_res.resources
