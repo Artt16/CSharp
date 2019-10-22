@@ -1,0 +1,6 @@
+C:\Users\Артём\source\repos\DZ4\Task\bin\Debug\Task.dll
+C:\Users\Артём\source\repos\DZ4\Task\bin\Debug\Task.pdb
+C:\Users\Артём\source\repos\DZ4\Task\obj\Debug\Task.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\DZ4\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\DZ4\Task\obj\Debug\Task.dll
+C:\Users\Артём\source\repos\DZ4\Task\obj\Debug\Task.pdb
