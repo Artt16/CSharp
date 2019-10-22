@@ -7,8 +7,8 @@ namespace Build
     {
         public string name { get; set; } = "Brigadier Yasya";//=)
 
-        // public void Build(List<IWorker> workers, House house) //тут можно переделать, чтобы team использовал, но тогда надо чтобы team был IEnumerable
-        public void Build(Team workers, House house)
+         public void Build(List<IWorker> workers, House house) //тут можно переделать, чтобы team использовал, но тогда надо чтобы team был IEnumerable
+        //public void Build(Team workers, House house)
         {
             while (!house.IsComplete)
             {

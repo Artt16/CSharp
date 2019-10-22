@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace Build
 {
-    public class Team : IEnumerable
+    public class Team 
     {
         private List<IWorker> team;
         public Team(House house)
@@ -39,9 +39,6 @@ namespace Build
         //    }
         //    set { team[index] = value; }
         //}
-        public IEnumerator GetEnumerator()
-        {
-            return team.GetEnumerator();
-        }
+        
     }
 }
