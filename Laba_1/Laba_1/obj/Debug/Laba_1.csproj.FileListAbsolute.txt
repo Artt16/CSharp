@@ -1,0 +1,10 @@
+C:\Users\Артём\source\repos\Laba_1\Laba_1\bin\Debug\Laba_1.exe.config
+C:\Users\Артём\source\repos\Laba_1\Laba_1\bin\Debug\Laba_1.exe
+C:\Users\Артём\source\repos\Laba_1\Laba_1\bin\Debug\Laba_1.pdb
+C:\Users\Артём\source\repos\Laba_1\Laba_1\bin\Debug\Tasks.dll
+C:\Users\Артём\source\repos\Laba_1\Laba_1\bin\Debug\Tasks.pdb
+C:\Users\Артём\source\repos\Laba_1\Laba_1\obj\Debug\Laba_1.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\Laba_1\Laba_1\obj\Debug\Laba_1.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\Laba_1\Laba_1\obj\Debug\Laba_1.csproj.CopyComplete
+C:\Users\Артём\source\repos\Laba_1\Laba_1\obj\Debug\Laba_1.exe
+C:\Users\Артём\source\repos\Laba_1\Laba_1\obj\Debug\Laba_1.pdb

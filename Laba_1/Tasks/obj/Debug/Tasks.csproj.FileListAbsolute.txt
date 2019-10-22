@@ -1,0 +1,6 @@
+C:\Users\Артём\source\repos\Laba_1\Tasks\bin\Debug\Tasks.dll
+C:\Users\Артём\source\repos\Laba_1\Tasks\bin\Debug\Tasks.pdb
+C:\Users\Артём\source\repos\Laba_1\Tasks\obj\Debug\Tasks.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\Laba_1\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\Laba_1\Tasks\obj\Debug\Tasks.dll
+C:\Users\Артём\source\repos\Laba_1\Tasks\obj\Debug\Tasks.pdb
