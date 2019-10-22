@@ -1,0 +1,10 @@
+C:\Users\Артём\source\repos\Laba_2\Laba_2\bin\Debug\Laba_2.exe.config
+C:\Users\Артём\source\repos\Laba_2\Laba_2\bin\Debug\Laba_2.exe
+C:\Users\Артём\source\repos\Laba_2\Laba_2\bin\Debug\Laba_2.pdb
+C:\Users\Артём\source\repos\Laba_2\Laba_2\bin\Debug\Battle_tanks.dll
+C:\Users\Артём\source\repos\Laba_2\Laba_2\bin\Debug\Battle_tanks.pdb
+C:\Users\Артём\source\repos\Laba_2\Laba_2\obj\Debug\Laba_2.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.CopyComplete
+C:\Users\Артём\source\repos\Laba_2\Laba_2\obj\Debug\Laba_2.exe
+C:\Users\Артём\source\repos\Laba_2\Laba_2\obj\Debug\Laba_2.pdb

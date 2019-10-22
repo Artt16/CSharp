@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba_2", "Laba_2\Laba_2.csproj", "{06911170-FF4C-4E59-85D8-5B483CFDE4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battle_tanks", "Battle_tanks\Battle_tanks.csproj", "{8DAEC21B-1D76-4175-8098-057ED1FD1117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06911170-FF4C-4E59-85D8-5B483CFDE4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06911170-FF4C-4E59-85D8-5B483CFDE4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06911170-FF4C-4E59-85D8-5B483CFDE4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06911170-FF4C-4E59-85D8-5B483CFDE4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAEC21B-1D76-4175-8098-057ED1FD1117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAEC21B-1D76-4175-8098-057ED1FD1117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAEC21B-1D76-4175-8098-057ED1FD1117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAEC21B-1D76-4175-8098-057ED1FD1117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {728F956D-00BE-4344-8E3E-72E17631C07C}
+	EndGlobalSection
+EndGlobal

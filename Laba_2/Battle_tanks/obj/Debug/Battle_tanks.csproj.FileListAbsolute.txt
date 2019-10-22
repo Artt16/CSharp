@@ -1,0 +1,8 @@
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\bin\Debug\Battle_tanks.dll
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\bin\Debug\Battle_tanks.pdb
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.csprojAssemblyReference.cache
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.dll
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.pdb
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.csproj.GenerateResource.cache
+C:\Users\Артём\source\repos\Laba_2\Battle_tanks\obj\Debug\Battle_tanks.Tanks_res.resources
