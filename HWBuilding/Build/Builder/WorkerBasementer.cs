@@ -1,25 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Build.Builder
 {
     public class WorkerBasementer : IWorker
     {
-        public string Name { get ; set; }
+        public string Name { get; set; }
         public void BuildBasement(House house)
         {
             var basement = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Basement));
-            if (basement != null)
+            if (basement == null || !basement.constructionStatus)
             {
-                if (!basement.constructionStatus)
-                {
-                    basement.Construct(house);
-                }
+                basement = new Basement();
+                basement.Construct(house);
             }
         }
+
 
         public void BuildDoor(House house)
         {

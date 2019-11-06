@@ -1,44 +1,35 @@
 ﻿using Build.Builder;
 using Build.Builder.Director;
-using System;
 using System.Collections;
 using System.Collections.Generic;
-
 namespace Build
 {
-    public class Team 
+    public class Team :IEnumerable<IWorker>
     {
-        private List<IWorker> team;
-        public Team(House house)
+        private List<IWorker> team = new List<IWorker>();
+        public Team()
         {
             team.Add(new WorkerBasementer());
             team.Add(new WorkerWallsbuilder());
             team.Add(new WorkerDoorbuilder());
             team.Add(new WorkerRoofer());
             team.Add(new WorkerWindowbuilder());
-
-            
-        //    for (int i = 0; i < 2; i++)
-        //    {
-        //        team
-        //        team[i] = new Worker();
-        //        team[i].name = $"Builder {i + 1}";
-        //    }
-        //}
-        //public int Length()
-        //{
-        //    return team.Length;
+            team.GetEnumerator();        
         }
-        //public IWorker this[int index]
-        //{
-        //    get
-        //    {
-        //        if (index >= 0 && index <= 3)
-        //            return team[index];
-        //        return null;
-        //    }
-        //    set { team[index] = value; }
-        //}
-        
+        public IEnumerator<IWorker> GetEnumerator(List<IWorker> team)
+        {
+            
+            return team.GetEnumerator();
+        }
+
+        public IEnumerator<IWorker> GetEnumerator()
+        {
+            return ((IEnumerable<IWorker>)team).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return team.GetEnumerator();
+        }
     }
 }

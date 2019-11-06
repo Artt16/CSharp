@@ -12,16 +12,15 @@ namespace HWBuilding
         static void Main(string[] args)
         {
             var project = new HouseProject() { BasementNeeded = true, WallCount = 4, DoorNeeded = true, RoofNeeded = true, WindowCount = 4 };
-
             House house = new House(project);
-            //Team team = new Team();
             TeamLeader teamleader = new TeamLeader();
-            var team = new List<IWorker>();
-            team.Add(new WorkerBasementer());
-            team.Add(new WorkerWallsbuilder());
-            team.Add(new WorkerWindowbuilder());
-            team.Add(new WorkerRoofer());//
-            team.Add(new WorkerDoorbuilder());//
+            //var _team = new List<IWorker>();
+            var team = new Team();//_team);
+            //_team.Add(new WorkerBasementer());
+            //_team.Add(new WorkerWallsbuilder());
+            //_team.Add(new WorkerWindowbuilder());
+            //_team.Add(new WorkerRoofer());
+            //_team.Add(new WorkerDoorbuilder());
             teamleader.Build(team, house);
 
         }     

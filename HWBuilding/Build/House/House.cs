@@ -6,7 +6,7 @@ namespace Build
 {
     public class House
     {
-        private HouseProject _project;
+        private HouseProject _project;// = new HouseProject();
         public bool IsBasementBuild
         {
             get => Parts.OfType<Basement>().Any() && _project.BasementNeeded;
@@ -30,11 +30,7 @@ namespace Build
         
         public bool IsComplete
         {
-            get
-            {
-                //тут всякие остальные детали по проекту
-                return IsBasementBuild && IsWallsComplete && IsRoofBuild && IsWindowComplete && IsDoorComplete;
-            }
+            get => IsBasementBuild && IsWallsComplete && IsRoofBuild && IsWindowComplete && IsDoorComplete;             
         }
 
         public List<IPart> Parts { get; set; } = new List<IPart>();

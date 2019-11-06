@@ -1,37 +1,50 @@
-﻿using System.Collections.Generic;
-
+﻿using System;
 namespace Build
 {
-
     public class TeamLeader
     {
-        public string name { get; set; } = "Brigadier Yasya";//=)
-
-         public void Build(List<IWorker> workers, House house) //тут можно переделать, чтобы team использовал, но тогда надо чтобы team был IEnumerable
-        //public void Build(Team workers, House house)
-        {
+        public string name { get; set; } = "Brigadier Yasya";
+        public void Build(Team workers, House house)
+        {            
             while (!house.IsComplete)
             {
                 try
                 {
                     foreach (var worker in workers)
                     {
-                        // а тут бригадир достает из штанин проект
-                        worker.BuildBasement(house);
-                        worker.BuildWall(house);
-                        worker.BuildDoor(house);
-                        worker.BuildRoof(house);
-                        worker.BuildWindow(house);
-                        //ну вот и все, тут все детали надо добавить
-                        //то потом можно так вызывать
-                        //worker
-                        //    .BuildDoor(house)
-                        //    .BuildRoof(house)
-                        //    .BuildWall(house)
-                        //    .BuildDoor(house);
+                        if (!house.IsBasementBuild)
+                        {
+                            worker.BuildBasement(house);
+                            Console.WriteLine("Basement is builded");
+                           continue;                              
+                        }
+                        if (house.IsBasementBuild && !house.IsWallsComplete)
+                        {
+                            worker.BuildWall(house);
+                            Console.WriteLine($"Wall {house.Parts.Count} is builded");
+                            continue;
+                        }
+                        if (house.IsWallsComplete && !house.IsDoorComplete) 
+                        {
+                            worker.BuildDoor(house);
+                            Console.WriteLine("Door is builded");
+                            continue;
+                        }
+                        if(house.IsDoorComplete && !house.IsRoofBuild)
+                        {
+                            worker.BuildRoof(house);
+                            Console.WriteLine("Roof is builded");
+                            continue;
+                        }
+                        if(house.IsRoofBuild && !house.IsWindowComplete)
+                        {
+                            worker.BuildWindow(house);
+                            Console.WriteLine($"Window{house.Parts.Count}is builded");
+                            break;
+                        }                        
                     }
                 }
-                catch //если ктото чето не умеет то просто продолжаем строить
+                catch 
                 { continue; }
             }
         }

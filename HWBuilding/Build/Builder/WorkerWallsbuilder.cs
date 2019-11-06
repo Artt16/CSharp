@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Build.Builder
 {
     public class WorkerWallsbuilder : IWorker
@@ -28,12 +24,10 @@ namespace Build.Builder
         public void BuildWall(House house)
         {
             var wall = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Walls));
-            if (wall != null)
+            if (wall != null && !wall.constructionStatus)
             {
-                if (!wall.constructionStatus)
-                {
-                    wall.Construct(house);
-                }
+                wall = new Walls();
+                wall.Construct(house);
             }
         }
 
