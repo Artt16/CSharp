@@ -1,27 +1,19 @@
-﻿using System.Linq;
-
-namespace Build.Builder
+﻿namespace Build.Builder
 {
     public class WorkerDoorbuilder : IWorker
     {
+        public WorkerDoorbuilder(){}
         public string Name { get; set; }
-        
+
         public void BuildBasement(House house)
         {
-            throw new System.NotImplementedException(); //а этот не умеет фундамент
+            throw new System.NotImplementedException(); 
         }
 
         public void BuildDoor(House house)
         {
-
-            var door = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Door));
-            if (door != null)
-            {
-                if (!door.constructionStatus)
-                {
-                    door.Construct(house);
-                }
-            }
+            var door = new Door(Name);
+            door.Construct(house);
         }
 
         public void BuildRoof(House house)

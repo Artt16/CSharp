@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace Build
 {
@@ -20,14 +19,8 @@ namespace Build
 
         public void BuildRoof(House house)
         {
-            var roof = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Roof));
-            if (roof != null)
-            {
-                if (!roof.constructionStatus)
-                {
-                    roof.Construct(house);
-                }
-            }
+            var roof = new Roof(Name);
+            roof.Construct(house);
         }
 
         public void BuildWall(House house)

@@ -9,11 +9,11 @@ namespace Build
         private List<IWorker> team = new List<IWorker>();
         public Team()
         {
-            team.Add(new WorkerBasementer());
-            team.Add(new WorkerWallsbuilder());
-            team.Add(new WorkerDoorbuilder());
-            team.Add(new WorkerRoofer());
-            team.Add(new WorkerWindowbuilder());
+            team.Add(new WorkerBasementer() { Name = "Piter" });
+            team.Add(new WorkerWallsbuilder() { Name = "Ivan" });
+            team.Add(new WorkerDoorbuilder() { Name = "Semen" });
+            team.Add(new WorkerRoofer() { Name = "Nicola"});
+            team.Add(new WorkerWindowbuilder() { Name = "Bill Gates" });
             team.GetEnumerator();        
         }
         public IEnumerator<IWorker> GetEnumerator(List<IWorker> team)

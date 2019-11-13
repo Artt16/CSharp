@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace Build.Builder
 {
@@ -8,14 +7,9 @@ namespace Build.Builder
         public string Name { get; set; }
         public void BuildBasement(House house)
         {
-            var basement = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Basement));
-            if (basement == null || !basement.constructionStatus)
-            {
-                basement = new Basement();
-                basement.Construct(house);
-            }
+            var basement = new Basement(Name);
+            basement.Construct(house);
         }
-
 
         public void BuildDoor(House house)
         {

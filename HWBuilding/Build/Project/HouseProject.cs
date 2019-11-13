@@ -7,7 +7,5 @@
         public bool RoofNeeded { get; set; }
         public int WindowCount { get; set; }
         public bool DoorNeeded { get; set; }
-
-        //тут всякие остальные условия проекта
     }
 }

@@ -6,11 +6,12 @@ namespace Build
 {
     public class House
     {
-        private HouseProject _project;// = new HouseProject();
+        private HouseProject _project;
         public bool IsBasementBuild
         {
             get => Parts.OfType<Basement>().Any() && _project.BasementNeeded;
-        }        
+            
+        }
         public bool IsWallsComplete
         {
             get => Parts.OfType<Walls>().Count() == _project.WallCount;

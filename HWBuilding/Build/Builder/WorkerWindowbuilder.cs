@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 namespace Build.Builder.Director
 {
     public class WorkerWindowbuilder : IWorker
@@ -27,14 +26,9 @@ namespace Build.Builder.Director
         }
         public void BuildWindow(House house)
         {
-            var window = house.Parts.FirstOrDefault(b => b.GetType() == typeof(Window));
-            if (window != null)
-            {
-                if (!window.constructionStatus)
-                {
-                    window.Construct(house);
-                }
-            }
+            var window = new Window(Name);
+            window.Construct(house);               
+            
         }
     }
 }
