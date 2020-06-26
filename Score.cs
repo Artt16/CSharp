@@ -7,9 +7,11 @@ namespace test
     {
         static void Main(string[] args)
             => Console.WriteLine(Score(new int[] { 1, 1, 2, 4, 5 }));
+        
+        
         public static int Score(int[] dice)
         {
-            int result = 0, num;
+            int result = 0, temp = 0, num;
 
             try
             {
@@ -23,7 +25,6 @@ namespace test
                 result = num * 100;
             if (num == 1)
                 result += 1000;
-            int temp = 0;
             if (num == 5 || num == 1)
                 temp = Counter(dice, num);
             for (int i = 0; i < dice.Length; i++)
@@ -41,6 +42,8 @@ namespace test
             }           
             return result;                     
         }
+        
+        
         public static int Counter(int [] arr, int num)
         {
             int count = 0;
