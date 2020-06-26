@@ -25,7 +25,7 @@ namespace test
                 result += 1000;
             int temp = 0;
             if (num == 5 || num == 1)
-                temp = OneFiveCounter(dice, num);
+                temp = Counter(dice, num);
             for (int i = 0; i < dice.Length; i++)
             {
                 if (dice[i] == 1 && temp > 3 && num == 1 || dice[i] == 1 && num != 1)
@@ -41,7 +41,7 @@ namespace test
             }           
             return result;                     
         }
-        public static int OneFiveCounter(int [] arr, int num)
+        public static int Counter(int [] arr, int num)
         {
             int count = 0;
             if(num == 5)
